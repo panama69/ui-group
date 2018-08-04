@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import com.hp.lft.sdk.*;
+import com.hp.lft.sdk.web.*;
+import com.hp.lft.verifications.*;
 import unittesting.*;
 
 public class FlynnsTabletsTest extends UnitTestClassBase {
@@ -45,17 +47,17 @@ public class FlynnsTabletsTest extends UnitTestClassBase {
     @Test
     public void alan() throws GeneralLeanFtException, InterruptedException {
         System.out.println("Executing test: "+new Object(){}.getClass().getEnclosingMethod().getName());
-//        Verify.areEqual(2,2);
-//        Browser browser = BrowserFactory.launch (BrowserType.CHROME);
-//        browser.navigate("www.advantageonlineshopping.com");
-//        AOSModel aosModel = new AOSModel(browser);
-//
-//        aosModel.advantageShoppingPage().tABLETSLink().click();
-//        Thread.sleep(2000);
-//        browser.back();
-//        Thread.sleep(2000);
-//        aosModel.advantageShoppingPage().hEADPHONESLink().click();
-//        browser.close();
+        Verify.areEqual(2,2);
+        Browser browser = BrowserFactory.launch (BrowserType.CHROME);
+        browser.navigate("www.advantageonlineshopping.com");
+        AOSModel aosModel = new AOSModel(browser);
+
+        aosModel.advantageShoppingPage().tABLETSLink().click();
+        Thread.sleep(2000);
+        browser.back();
+        Thread.sleep(2000);
+        aosModel.advantageShoppingPage().hEADPHONESLink().click();
+        browser.close();
     }
 
 }
