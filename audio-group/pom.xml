@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.mf</groupId>
+        <artifactId>ui-group</artifactId>
+        <version>1.0</version>
+    </parent>
+    <artifactId>audio-group</artifactId>
+    <name>Audio Group</name>
+    <description>Collection of tests validating the audio/speakers area of site</description>
+
+    <repositories>
+        <!--<repository>
+                <id>Your repository's ID</id>
+                    <name>Your repository's name</name>
+                    <url>URL of the repository containing the LeanFT jar files</url>
+            </repository>-->
+    </repositories>
+
+    <build>
+    </build>
+</project>
